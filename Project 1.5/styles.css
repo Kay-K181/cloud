@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 10rem;
+  background-color: black;
+  user-select: none;
+}
+
+.walk{
+  display: none;
+  background-color: rgb(20, 89, 98);
+}
+
+
+.run{
+  display: none;
+  background-color: darkgray;
+}
+
+.swim{
+  display: none;
+  background-color: rgba(202, 137, 17, 0.834);
+}
+
+.active{
+  display: block;
+}
+
+.emoji{
+  cursor: pointer;
+  border-radius: 20%;
+}
